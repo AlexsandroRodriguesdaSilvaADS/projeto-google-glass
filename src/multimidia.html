@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tudo sobre o Google Glass</title>
+	<link rel="stylesheet" href="./css/estilo.css" />
+	<link rel="stylesheet" href="./css/media.css" />
+	<link rel="stylesheet" href="./css/responsivo.css">
+</head>
+
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+			<hgroup>
+				<h1>Google Glass</h1>
+				<h2>A revolução Google está chegando</h2>
+			</hgroup>
+
+			<img id="icone" src="./imagens/multimidia.png" />
+			<div class="menu-section">
+				<div class="menu-toggle">
+					<div class="one"></div>
+					<div class="two"></div>
+					<div class="three"></div>
+				</div>
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+					<ul type="disc">
+						<li onmouseover="mudaFoto('./imagens/home.png')"
+							onmouseout="mudaFoto('./imagens/multimidia.png')">
+							<a href="../index.html">Home</a>
+						</li>
+						<li onmouseover="mudaFoto('./imagens/especificacoes.png')"
+							onmouseout="mudaFoto('./src/imagens/multimidia.png')">
+							<a href="./especificacoes.html">Especificações</a>
+						</li>
+						<li onmouseover="mudaFoto('./imagens/fotos.png')"
+							onmouseout="mudaFoto('./imagens/multimidia.png')">
+							<a href="./fotos.html">Fotos</a>
+						</li>
+						<li onmouseover="mudaFoto('./imagens/multimidia.png')"
+							onmouseout="mudaFoto('./imagens/multimidia.png')">
+							<a href="./multimidia.html">Multimídia</a>
+						</li>
+						<li onmouseover="mudaFoto('./imagens/fale-conosco.png')"
+							onmouseout="mudaFoto('./imagens/multimidia.png')">
+							<a href="./fale-conosco.html">Fale
+								conosco</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="corpo-full">
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<hgroup>
+						<h3>Glass > Multimídia</h3>
+						<h1>Sons e Vídeos</h1>
+						<h2>por Alexsandro Rodrigues da Silva</h2>
+						<h3 class="direita">Today <time datetime="" id="current-time"></time></h3>
+					</hgroup>
+				</header>
+
+				<div id="tv-radio">
+					<audio id="musica" controls="controls">
+						<source src="./media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+						<source src="./media/2009-lovers-carvings-bibio.ogg" type="audio/ogg" />
+						Desculpe, mas não foi possível carregar o áudio.
+					</audio>
+					<video id="filme" controls="controls" poster="./imagens/video-mini03.jpg">
+						<source src="./media/getting-started.mp4" type="video/mp4">
+						<source src="./media/getting-started.ogv" type="video/ogg">
+						Desculpe, mas não foi possível carregar o vídeo.
+					</video>
+				</div>
+			</article>
+		</section>
+
+		<footer id="rodape">
+			<p>Copyright 2019 - by Alexsandro Rodrigues da Silva <br>
+				<a href="https://www.linkedin.com/in/alexsandro-rodrigues-da-silva-196571249/"
+					target="blanck">LinkedIn</a> | <a
+					href="https://alexsandrorodriguesdasilvaads.github.io/google-glass/" target="blanck">Github</a>
+			</p>
+		</footer>
+	</div>
+
+	<script src="./javascript/menu.js"></script>
+	<script src="./javascript/data.js"></script>
+	<script src="./javascript/funcoes.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+section#corpo-full {
+	padding: 20px;
+	margin: auto;
+	max-width: 100vw;
+	height: 100%;
+}
+
+div#lista-fotos {
+	max-width: 100vw;
+}
+
+ul#album-fotos {
+	max-width: 94%;
+	max-height: 100%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-right: 40px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid rgba(0, 0, 0, 0.4);
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+	background: url('../imagens/galeria-01.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+	background: url('../imagens/galeria-02.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+	background: url('../imagens/galeria-03.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+	background: url('../imagens/galeria-04.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+	background: url('../imagens/galeria-05.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+	background: url('../imagens/galeria-06.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+@media screen and (max-width: 1094px) {
+	ul#album-fotos {
+		padding-left: 150px;
+	}
+}
+
+@media screen and (max-width: 968px) {
+	ul#album-fotos {
+		padding-left: 90px;
+	}
+}
+
+@media screen and (max-width: 905px) {
+	ul#album-fotos {
+		padding-left: 60px;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	ul#album-fotos {
+		padding-left: 40px;
+	}
+}
+
+@media screen and (max-width: 852px) {
+	ul#album-fotos {
+		padding-left: 150px;
+	}
+}
+
+@media screen and (max-width: 726px) {
+	ul#album-fotos {
+		padding-left: 90px;
+	}
+}
+
+@media screen and (max-width: 663px) {
+	ul#album-fotos {
+		padding-left: 60px;
+	}
+}
+
+@media screen and (max-width: 631px) {
+	ul#album-fotos {
+		padding-left: 40px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	ul#album-fotos {
+		padding-left: 150px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	ul#album-fotos {
+		padding-left: 135px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	ul#album-fotos {
+		padding-left: 120px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	ul#album-fotos {
+		padding-left: 105px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	ul#album-fotos {
+		padding-left: 90px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	ul#album-fotos {
+		padding-left: 80px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	ul#album-fotos {
+		padding-left: 65px;
+	}
+}
+
+@media screen and (max-width: 378px) {
+	ul#album-fotos {
+		padding-left: 40px;
+	}
+}
+
+@media screen and (max-width: 353px) {
+	section#corpo-full {
+		padding: 5px;
+	}
+}

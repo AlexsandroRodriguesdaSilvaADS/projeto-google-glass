@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+section#corpo-full {
+	padding: 20px;
+	height: 100vh;
+}
+
+section#conteudo {
+	text-align: center;
+	width: 85vw;
+	/*margin: auto;*/
+}
+
+iframe#frame-spec {
+	background-color: #ffffff;
+	margin-left: 30px;
+	width: 35vw;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+	display: none;
+}
+
+
+@media screen and (max-width: 1068px) {
+	iframe#frame-spec {
+		width: 80%;
+		margin-left: 0;
+	}
+}

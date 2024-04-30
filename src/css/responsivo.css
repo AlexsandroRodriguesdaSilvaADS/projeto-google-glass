@@ -1,0 +1,252 @@
+@media screen and (max-width: 1820px) {
+    nav#menu ul {
+        left: 60vw;
+    }
+}
+
+@media screen and (max-width: 1554px) {
+    nav#menu ul {
+        left: 55vw;
+    }
+}
+
+@media screen and (max-width: 1433px) {
+    div#lateral {
+        display: flex;
+        max-width: 85vw;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #icone {
+        top: 15vh;
+    }
+
+    section#corpo {
+        display: flex;
+        max-width: 84vw;
+        float: none;
+        border-right: none;
+    }
+
+    div#filme01 video {
+        width: 50vw;
+    }
+
+    div#lateral video#filme02 {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1364px) {
+    nav#menu ul {
+        left: 50vw;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #icone {
+        left: 75vw;
+    }
+}
+
+@media screen and (max-width: 1213px) {
+    nav#menu ul {
+        left: 45vw;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+    nav#menu ul {
+        left: 40vw;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    #icone {
+        left: 70vw;
+    }
+
+    nav#menu ul {
+        left: 45vw;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    #icone {
+        left: 65vw;
+    }
+
+    nav#menu ul {
+        left: 50vw;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    nav#menu li {
+        display: block;
+        padding: 10px;
+        margin: 2px;
+    }
+
+    #icone {
+        width: 25vw;
+        left: 45vw;
+        top: 13vh;
+    }
+
+    nav#menu ul {
+        left: 70vw;
+    }
+
+    iframe#frame-spec {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #icone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    nav#menu {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #606060;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        width: 40px;
+        height: 30px;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+
+    .menu-section.on {
+        /*background: linear-gradient(to right, #CA2A02, #FE9E00, #4FABE1);
+        background-size: 180% 180%;
+        animation: gradient-animation 5s ease infinite;*/
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 101vw;
+        height: 105vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav#menu {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav#menu ul {
+        text-align: center;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        left: 16%;
+        top: 15%;
+    }
+
+    .menu-section.on nav#menu ul li {
+        background: linear-gradient(to right, #CA2A02, #FE9E00, #4FABE1);
+        background-size: 180% 180%;
+        animation: gradient-animation 5s ease infinite;
+
+        margin: 15px;
+        width: 100%;
+    }
+
+    .menu-section.on nav#menu ul a {
+        font-size: 20px;
+        line-height: 60px;
+        display: block;
+        transition-duration: 0.5s;
+    }
+
+    @keyframes gradient-animation {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    section#conteudo img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div#interface {
+        padding: 0;
+        width: 100vw;
+    }
+
+    div#filme01 video {
+        width: 270px;
+    }
+
+    div#lateral video#filme02 {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    header#cabecalho h2 {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div#filme01 video {
+        width: 250px;
+    }
+
+    div#lateral video#filme02 {
+        width: 250px;
+    }
+}

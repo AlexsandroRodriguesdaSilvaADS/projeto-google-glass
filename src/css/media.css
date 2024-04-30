@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+section#corpo-full {
+	padding: 20px;
+	height: 100vh;
+}
+
+div#tv-radio {
+	background: linear-gradient(to right, #CA2A02, #FE9E00, #4FABE1);
+	background-size: 180% 180%;
+	animation: gradient-animation 5s ease infinite;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 80vw;
+	height: 100%;
+	margin: 30px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+audio#musica {
+	background: #FE9E00;
+	padding: 20px;
+	display: block;
+	max-width: 60vw;
+	height: 5vh;
+	margin: 15px;
+}
+
+video#filme {
+	padding: 20px;
+	max-width: 70vw;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
